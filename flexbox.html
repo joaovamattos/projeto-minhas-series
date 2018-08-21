@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Box</title>
+    <style>
+        *{
+            color: whitesmoke;
+            font-size: 16px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+        .container  >div{
+            width: 200px;
+            height: 80px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row; /* column */
+            justify-content: space-around; /* center, space-between*/
+            flex-wrap: wrap;
+        }
+        .um{
+            background-color: #3F528D;
+        }
+        .dois{
+            background-color: #E4B819;
+        }
+        .tres{
+            background-color: #C6B98F;
+        }
+        .quatro{
+            background-color: #004247;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class=um>1</div>
+        <div class=dois>2</div>
+        <div class=tres>3</div>
+        <div class=quatro>4</div>
+    </div>
+</body>
+</html>
