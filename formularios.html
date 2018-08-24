@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="João">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="joao@joaomail.com">
+        </div>
+        <div>
+            <label for="data-nasc">Data de nascimento:</label>
+            <input type="date" id="data-nasc">
+        </div>
+        <div>
+            <input type="radio" id="sexo-m" name="sexo">
+            <label for="sexo-m">Masculino</label>
+            <input type="radio" id="sexo-f" name="sexo">
+            <label for="sexo-f">Feminino</label>
+        </div>
+        <div>
+            <input type="checkbox" id="contrato">
+            <label for="contrato">Aceito os termos</label>
+        </div>
+        <div>
+            <label for="estado">Estado:</label>
+            <select id="estado">
+                <option select disable>-- Selecione --</option>
+                <option value="AC">Acre</option>
+                <option value="AM">Amazonas</option>
+                <option value="AP">Amapá</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+            </select>
+        </div>
+        <div>
+            <label for="observacoes">Observações</label>
+            <textarea id="observacoes" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Salvar">
+        </div>
+    </form>
+</body>
+</html>
