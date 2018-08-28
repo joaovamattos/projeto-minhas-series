@@ -33,7 +33,77 @@
     border: 0;  
     width: 80%;
 }
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 600px;
+}
 
+
+
+.texto-formulario{
+    color: #000;
+    font-size: 16px;
+    display: block;
+    padding: 10px 0px;
+}
+
+.caixa-texto{
+    display: block;
+    padding: 10px;
+    resize: none;
+    width: 600px;
+    color: #535353;
+    font-size: 14px;
+    border: none;
+    border-bottom: 2px #C0392B solid;
+}
+.mensagem{
+    padding: 10px;
+    resize: none;
+    display: block;
+    color: #535353;
+    font-size: 14px;
+    border: none;
+    width: 600px;
+    border-bottom: 2px #C0392B solid;
+}
+
+.radio-texto{
+    color: #2c2c2c;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.container-formulario{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.combobox{
+    border: none;
+    font-size:16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color:  #C0392B;
+    color: #fff;
+    border: none;
+    font-size:16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    width: 620px;
+}
 .box-container{
     display: flex;
     justify-content: flex-start; /* center, space-between*/

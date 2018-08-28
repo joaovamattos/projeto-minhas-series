@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/conteudo.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px" rel="stylesheet">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+             <div class="box">
+                <ul>
+                    <li><a href="index.html" class="menu-link">Início</a></li>
+                    <li><a href="#" class="menu-link">Séries renovadas</a></li>
+                    <li><a href="#" class="menu-link">Séries em destaque</a></li>
+                    <li><a href="#" class="menu-link">Novas séries</a></li>
+                    <li><a href="contato.html" class="menu-link">Contato</a></li>
+               </ul>
+             </div>
+        </nav>        
+        <div class="titulo">
+            <div class="box">
+            Minhas <span class="titulo-mod">Séries</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="box">
+            <h1 class="resultados">Contato</h1>
+            <form class="formulario">
+                <div>
+                    <label class="texto-formulario" for="nome">Nome completo:</label>
+                    <input class="caixa-texto" type="text" id="nome" placeholder="Seu nome aqui">
+                </div>
+                <div>
+                    <label class="texto-formulario" for="email">E-mail:</label>
+                    <input class="caixa-texto" type="email" id="email" placeholder="seuemail@mail.com">
+                </div>
+                <div class="container-formulario">
+                <div>
+                    <label class="texto-formulario">Sexo:</label>
+                    <input type="radio" id="sexo-m" name="sexo">
+                    <label class="radio-texto" for="sexo-m">Masculino</label>
+                    <input type="radio" id="sexo-f" name="sexo">
+                    <label class="radio-texto" for="sexo-f">Feminino</label>
+                </div>
+                <div>
+                    <label class="texto-formulario" for="data-nasc">Data de nascimento:</label>
+                    <input class="radio-texto" type="date" id="data-nasc">
+                </div>
+                <div>
+                    <label class="texto-formulario" for="data-nasc">Estado:</label>
+                    <select class="combobox" id="estado" name="estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="ES">Estrangeiro</option>
+                    </select>
+                </div>
+                </div>
+                <div>
+                    <label class="texto-formulario" for="assunto">Assunto:</label>
+                    <input class="caixa-texto" type="text" id="assunto" placeholder="Assunto da mensagem">
+                </div>
+                <div>
+                    <label class="texto-formulario" for="mensagem">Mensagem:</label>
+                    <textarea class="mensagem" id="mensagem" cols="30" rows="10" placeholder="Minha mensagem aqui"></textarea>
+                </div>
+                <div>
+                    <input class="botao" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="box">
+            <p class="texto-rodape">Minhas SÉRIES</p>
+            <img src="#facebook" class="imagem-rodape">
+            <img src="#twitter" class="imagem-rodape">
+            <img src="#youtube" class="imagem-rodape">
+        </div>
+    </footer> 
+</body>
+</html>
