@@ -1,0 +1,64 @@
+.pagina-serie-titulo{
+    color: #c03928;
+    font-family: 'Slabo 27px', serif;
+    margin-top: 20px;
+}
+
+.pagina-serie-genero{
+    color: #a9a4a4;
+    margin: 15px 0;
+}
+
+.pagina-serie-info{
+    display: flex;
+}
+
+.pagina-serie-capa{
+    border-radius: 5px;
+}
+.pagina-serie-texto{
+    padding: 0 30px;
+    line-height: 1.5;
+    width: 60%;
+}
+
+.btn-trailer{
+    color: #000;
+    text-decoration: none;
+    background-color: #F1C40F;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: inline-block;
+    width: 200px;
+}
+
+.btn-trailer:hover{
+    background-color: rgba(241, 196, 15, 0.616);
+}
+
+.pagina-serie-aside{
+    background-color: #eee;
+    padding: 20px;
+    width: 300px;
+}
+
+.pagina-serie-avaliacao h2, .pagina-serie-compartilhe h2{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+.pagina-serie-img{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.pagina-serie-avalicao-perc{
+    color: #27AE60;
+    text-align: center;
+    font-size: 30px;
+}
